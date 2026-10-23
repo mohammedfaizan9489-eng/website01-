@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Brew Bliss Cafe is a cozy neighborhood coffee shop serving handcrafted drinks, fresh bites, and warm hospitality."
+    />
+    <title>Brew Bliss Cafe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <a href="#home" class="brand" aria-label="Brew Bliss Cafe home">Brew Bliss</a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a href="#contact" class="nav-btn">Order Now</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Freshly brewed happiness</p>
+            <h1>Welcome to Brew Bliss Cafe</h1>
+            <p class="lead">
+              Your neighborhood coffee house for slow mornings, smooth espresso, and delicious bites.
+            </p>
+            <div class="hero-actions">
+              <a href="#menu" class="btn btn-primary">View Menu</a>
+              <a href="#contact" class="btn btn-secondary">Reserve a Table</a>
+            </div>
+          </div>
+
+          <aside class="hero-card" aria-label="Today's specials">
+            <h3>Today's Specials</h3>
+            <div class="mini-item">
+              <strong>Vanilla Latte</strong>
+              <span>$5.50</span>
+            </div>
+            <div class="mini-item">
+              <strong>Cold Brew</strong>
+              <span>$4.80</span>
+            </div>
+            <div class="mini-item">
+              <strong>Hazelnut Mocha</strong>
+              <span>$6.20</span>
+            </div>
+            <div class="mini-item">
+              <strong>Avocado Toast</strong>
+              <span>$7.50</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container">
+          <h2 class="section-title">Why people love Brew Bliss</h2>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-icon">☕</div>
+              <h3>Premium Coffee</h3>
+              <p>Carefully sourced beans bring rich flavor to each handcrafted cup.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon">🥐</div>
+              <h3>Fresh Bakes</h3>
+              <p>Warm pastries and savory bites made fresh every morning for your day.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon">🌿</div>
+              <h3>Cozy Space</h3>
+              <p>A calm, modern environment to relax, work, or catch up with friends.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu" id="menu">
+        <div class="container">
+          <h2 class="section-title">Popular coffee items</h2>
+
+          <div class="menu-grid">
+            <article class="menu-card">
+              <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80" alt="Signature Latte" />
+              <div class="menu-content">
+                <div class="menu-row">
+                  <h3>Signature Latte</h3>
+                  <span class="price">$5.50</span>
+                </div>
+                <p>Velvety espresso and steamed milk with a hint of vanilla bean sweetness.</p>
+                <button class="order-btn" type="button">Order Now</button>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=900&q=80" alt="Caramel Mocha" />
+              <div class="menu-content">
+                <div class="menu-row">
+                  <h3>Caramel Mocha</h3>
+                  <span class="price">$6.20</span>
+                </div>
+                <p>Chocolate, espresso, and caramel drizzle for a rich, indulgent finish.</p>
+                <button class="order-btn" type="button">Order Now</button>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=900&q=80" alt="Cold Brew" />
+              <div class="menu-content">
+                <div class="menu-row">
+                  <h3>Cold Brew</h3>
+                  <span class="price">$4.80</span>
+                </div>
+                <p>Slow-steeped coffee with a silky body and a crisp, smooth finish.</p>
+                <button class="order-btn" type="button">Order Now</button>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <img src="https://images.unsplash.com/photo-1497636577773-f1231844b336?auto=format&fit=crop&w=900&q=80" alt="Cappuccino" />
+              <div class="menu-content">
+                <div class="menu-row">
+                  <h3>Cappuccino</h3>
+                  <span class="price">$5.20</span>
+                </div>
+                <p>Classic espresso-based favorite with dense creamy foam and balanced richness.</p>
+                <button class="order-btn" type="button">Order Now</button>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=900&q=80" alt="Berry Cheesecake" />
+              <div class="menu-content">
+                <div class="menu-row">
+                  <h3>Berry Cheesecake</h3>
+                  <span class="price">$6.90</span>
+                </div>
+                <p>Light and creamy dessert topped with fresh berries and a buttery crust.</p>
+                <button class="order-btn" type="button">Order Now</button>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <img src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=900&q=80" alt="Avocado Toast" />
+              <div class="menu-content">
+                <div class="menu-row">
+                  <h3>Avocado Toast</h3>
+                  <span class="price">$7.50</span>
+                </div>
+                <p>Fresh avocado, herbs, and chili flakes served on artisan toasted sourdough.</p>
+                <button class="order-btn" type="button">Order Now</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container about-grid">
+          <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80" alt="Brew Bliss Cafe interior" />
+          </div>
+
+          <div class="about-text">
+            <h2>Fresh coffee, warm hearts, and community moments</h2>
+            <p>
+              Brew Bliss Cafe began with a simple idea: create a cozy space where exceptional coffee,
+              delicious food, and real conversations come together every day.
+            </p>
+            <p>
+              We pour care into every cup and keep our menu fresh, friendly, and full of comfort.
+            </p>
+            <ul class="about-list">
+              <li>Locally sourced ingredients</li>
+              <li>Friendly service from our baristas</li>
+              <li>Comfortable seating for every moment</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="container">
+          <h2 class="section-title">What our customers say</h2>
+          <div class="testimonial-grid">
+            <article class="quote-card">
+              <div class="stars">★★★★★</div>
+              <p>“The caramel mocha is amazing, and the whole place feels warm and welcoming.”</p>
+              <div class="customer">
+                <div class="avatar">A</div>
+                <div>
+                  <strong>Aisha K.</strong>
+                </div>
+              </div>
+            </article>
+
+            <article class="quote-card">
+              <div class="stars">★★★★★</div>
+              <p>“Beautiful atmosphere, strong coffee, and the avocado toast is a must-try.”</p>
+              <div class="customer">
+                <div class="avatar">L</div>
+                <div>
+                  <strong>Lucas M.</strong>
+                </div>
+              </div>
+            </article>
+
+            <article class="quote-card">
+              <div class="stars">★★★★★</div>
+              <p>“A perfect place for slow mornings and catch-ups with friends.”</p>
+              <div class="customer">
+                <div class="avatar">N</div>
+                <div>
+                  <strong>Nina R.</strong>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container contact-wrap">
+          <div class="info-box">
+            <h3>Let’s connect</h3>
+            <p>We’d love to hear from you for coffee orders, events, or questions.</p>
+            <ul>
+              <li>📍 24 Maple Street, Downtown</li>
+              <li>📞 +1 (555) 234-9876</li>
+              <li>✉️ hello@brewblisscafe.com</li>
+            </ul>
+          </div>
+
+          <form id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Full Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" />
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" />
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+            <div id="formMessage" class="form-message" aria-live="polite"></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        © 2026 Brew Bliss Cafe. Made for cozy coffee moments.
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
