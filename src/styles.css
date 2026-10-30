@@ -1,22 +1,22 @@
 :root {
   font-family: "DM Sans", sans-serif;
   color: #15cbc5;
-  background: #111210;
+  background: #e0ead6;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-optical-sizing: auto;
   font-weight: 400;
-  --bg: #111210;
-  --surface: #171815;
-  --surface-raised: #1c1e1a;
+  --bg: #bf1818;
+  --surface: #bd285c;
+  --surface-raised: #79db17;
   --text: #eeeee9;
   --muted: #999b91;
   --subtle: #6e7067;
-  --line: #30312c;
+  --line: #15ce0b;
   --accent: #d8fa74;
-  --accent-dark: #1b2110;
+  --accent-dark: #1c1d1b;
   --serif: Georgia, "Times New Roman", serif;
 }
 
